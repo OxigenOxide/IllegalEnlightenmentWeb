@@ -1,0 +1,42 @@
+canvas {
+    cursor: default;
+    outline: none;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+	height: 20%;
+}
+
+section{
+	display: flex;
+	flex-direction: row;
+	height:500px;
+}
+
+.bar{
+	background: red;
+	width: 20%;
+}
+
+.center{
+	background-color: aqua;
+	width: 60%;
+}
+
+.game{
+	background-color: rgb(0, 255, 0);
+}
+
+.information{
+	background-color: rgb(255, 115, 0);
+}
+
+.banner {
+	/* width: 400px;
+	height: 400px;  */
+	object-fit: fill; 
+}
